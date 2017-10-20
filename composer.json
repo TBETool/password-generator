@@ -1,5 +1,5 @@
 {
-    "name": "tbe/php-password-generator",
+    "name": "tbetool/php-password-generator",
     "type": "library",
     "description": "PHP random and secure password generator class",
     "keywords": ["php password generator","secure password generator", "password generator", "php password generator class"],
