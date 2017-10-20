@@ -95,7 +95,7 @@ class PasswordGenerator
             $this->passwords[] = $pass;
         }
 
-        return $this->passwords;
+        return $this->getPassword();
     }
 
     /**
