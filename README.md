@@ -37,6 +37,22 @@ use TBETool\PasswordGenerator;
 $passwordGenerator = new PasswordGenerator(16, 5, 'lower_case,numbers,special_symbols');
 ```
 
+#### Set Parameters after creating object
+Parameters set during object creation will be overwritten.
+```
+# Set lenght of password to 16
+# params: (int) length
+$passwordGenerator->setLength(16);
+
+# Set number of passwords to generate
+# params: (int) count
+$passwordGenerator->setCount(5);
+
+# Set characters to use in password
+# params: (string) characters
+$passwordGenerator->setCharacters('lower_case,numbers');
+```
+
 ### Generate Password
 This will return single password from all passwords generated
 ```
