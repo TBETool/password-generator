@@ -111,7 +111,12 @@ class PasswordGenerator
      */
     public function getPassword()
     {
-        $this->last_password = $this->passwords[rand(0, count($this->passwords))];
+        if ($this->getCount() > 1) {
+            $this->last_password = $this->passwords[rand(0, count($this->passwords)-1)];
+        } else {
+            $this->last_password = $this->passwords[0];
+        }
+
         return $this->last_password;
     }
 
