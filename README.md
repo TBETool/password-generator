@@ -79,7 +79,7 @@ $password = $passwordGenerator->getLastPassword();
 ```
 
 # Developer
-Anuj Sharma (https://anujsh.gitlab.io) 
+Anuj Sharma (https://anujsh.in) 
 
 # Package
 TBE (http://thebornengineer.com)
